@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.bg-image {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Retina-Great-Nature-Wallpapers-HD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.nav-bar-items {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar-items a:hover {
+  color: green;
+}
+.nav-bar-items h2 {
+  color: #fff;
+}
+.nav-bar-items li {
+  display: inline-block;
+  padding: 7px 8px;
+}
+.nav-bar-items li a {
+  display: block;
+  color: #fff;
+}
+
+.btn {
+  padding: 7px;
+  background-color: blue;
+  border: 0;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+span button {
+  border: 0;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn1 {
+  background-color: blue;
+}
+.btn1:hover {
+  color: green;
+}
+
+.btn2 {
+  background-color: black;
+}
+.btn2:hover {
+  color: green;
+}
+
+.text {
+  text-align: center;
+  margin-top: 15%;
+}
+.text p {
+  color: #fff;
+  font-size: larger;
+}
+.text h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.cont {
+  width: 1200px;
+  margin: auto;
+}
+
+.icons {
+  position: absolute;
+  bottom: 10%;
+}
+.icons i {
+  cursor: pointer;
+  color: #fff;
+  margin: 7px 8px;
+}
+.icons i:hover {
+  color: green;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 5%;
+}
+.footer-text span {
+  color: #fff;
+  margin: 7px 10px;
+  cursor: pointer;
+}
+.footer-text span:hover {
+  color: green;
+}
+
+@media (max-width: 700px) {
+  .entire-code {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .entire-code {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
